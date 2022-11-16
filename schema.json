@@ -1,0 +1,39 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "csv-field",
+    "friendlyName": "CSV Field",
+    "description": "form field for csv data",
+    "icon": "FileData",
+    "settings": [
+      {
+        "type": "field/array",
+        "key": "field",
+        "label": "Field"
+      },
+      {
+        "type": "text",
+        "key": "label",
+        "label": "Label",
+        "defaultValue": "label"
+      },
+      {
+        "type": "text",
+        "key": "dragzoneText",
+        "label": "Dragzone text",
+        "defaultValue": "Drag 'n' drop some (csv) files here, or click to select (csv) files"
+      },
+      {
+        "type": "event",
+        "key": "onChange",
+        "label": "onChange"
+      },
+      {
+        "type": "boolean",
+        "key": "disabled",
+        "label": "disabled"
+      }
+    ]
+  }
+}
